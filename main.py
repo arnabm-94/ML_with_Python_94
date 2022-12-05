@@ -14,9 +14,11 @@
 #elif d == "%":
 #    print(f"The modulus of {a} and {b} is", a%b)
 
-a = 50
-b = 34
-print("The value of", a, "+", 3, "is: ", a+b)
-print("The value of", a, "-", 3, "is: ", a-b)
-print("The value of", a, "/", 3, "is: ", a/b)
-print("The value of", a, "*", 3, "is: ", a*b)
+a = int(input("Enter your first number:   "))
+b = int(input("Enter your second number:   "))
+#a = 50
+#b = 34
+print("The value of", a, "+", b, "is: ", a+b)
+print("The value of", a, "-", b, "is: ", a-b)
+print("The value of", a, "/", b, "is: ", a/b)
+print("The value of", a, "*", b, "is: ", a*b)
